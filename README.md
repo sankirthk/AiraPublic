@@ -19,7 +19,7 @@ Most teleprompters feel like generic text panes. Aira is designed for live speak
 
 ### Product Walkthrough
 
-<video src="assets/demo.gif" controls muted playsinline></video>
+![](assets/demo.gif)
 
 
 ## What It Does
