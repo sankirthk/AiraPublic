@@ -17,7 +17,7 @@ Most teleprompters feel like generic text panes. Aira is designed for live speak
 - **Presentation-focused controls** like pause, hover controls, keyboard shortcuts, and screen-share-aware overlay behavior
 
 
-### Product Walkthrough
+### Demo
 
 ![](assets/Aira.gif)
 
