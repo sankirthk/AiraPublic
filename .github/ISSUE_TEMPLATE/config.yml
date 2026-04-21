@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Public Releases
+    url: https://github.com/sankirthk/aira-releases/releases
+    about: Download the latest public beta and read release notes.
+  - name: Website Repository
+    url: https://github.com/sankirthk/aira-site
+    about: Public website and marketing-site updates for Aira.

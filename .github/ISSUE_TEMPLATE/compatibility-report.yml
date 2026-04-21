@@ -1,0 +1,78 @@
+name: Compatibility Report
+description: Report a hardware, macOS version, display, or permission-specific compatibility issue
+title: "[Compatibility]: "
+labels:
+  - compatibility
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for setup-specific problems such as notch behavior, external displays, permissions, fullscreen, or OS-version differences.
+  - type: input
+    id: app-version
+    attributes:
+      label: Aira version
+      placeholder: 1.0.0-beta.5
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: macOS 14.7 or macOS 15.5
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware
+      placeholder: MacBook Pro 16-inch M3 Pro
+    validations:
+      required: true
+  - type: dropdown
+    id: chip
+    attributes:
+      label: CPU family
+      options:
+        - Apple Silicon
+        - Intel
+        - Not sure
+  - type: dropdown
+    id: notch
+    attributes:
+      label: Built-in physical notch?
+      options:
+        - Yes
+        - No
+        - Not sure
+  - type: dropdown
+    id: displays
+    attributes:
+      label: Display configuration
+      options:
+        - Built-in display only
+        - Built-in plus one external display
+        - Built-in plus multiple external displays
+        - External display only / clamshell
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is incompatible or behaving incorrectly?
+      placeholder: The notch overlay appears on the wrong display when an external monitor is connected.
+    validations:
+      required: true
+  - type: textarea
+    id: permissions
+    attributes:
+      label: Permission state
+      description: Mention microphone, speech recognition, and accessibility permission state if relevant.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction details
+      description: Describe how to trigger the issue on this setup.
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or video
+      description: Add links or attachments if they help.

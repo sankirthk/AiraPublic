@@ -1,0 +1,53 @@
+name: Feature Request
+description: Suggest a new feature or workflow improvement for Aira
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for ideas that would make Aira more useful in real speaking workflows.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the workflow gap or frustration.
+      placeholder: I use collections heavily and want a faster way to launch a session from within a collection.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like Aira to do?
+      description: Describe the feature as concretely as possible.
+      placeholder: Add a quick "Go Live" action for a selected script directly from the collection view.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why would this help?
+      description: Explain the benefit and who it helps.
+      placeholder: This would reduce clicks before a presentation and make collection-based workflows faster.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area is this related to?
+      options:
+        - Script library
+        - Collections
+        - Overlay windows
+        - Voice sync
+        - Accessibility
+        - Menu bar
+        - Settings
+        - App Store / distribution
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Mention any workaround you currently use.

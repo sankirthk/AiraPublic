@@ -1,0 +1,85 @@
+name: Bug Report
+description: Report a bug, regression, or broken workflow in Aira
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Please include enough detail to reproduce the problem.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly and include the expected behavior.
+      placeholder: When I start a voice-sync session, the overlay does not scroll even though microphone permission is granted.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps that trigger the issue.
+      placeholder: |
+        1. Open Aira
+        2. Start a session from the menu bar
+        3. Enable voice sync
+        4. Speak into the microphone
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does this happen?
+      options:
+        - Always
+        - Often
+        - Sometimes
+        - Once
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: Aira version
+      placeholder: 1.0.0-beta.5
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: macOS 15.5
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Mac model
+      placeholder: MacBook Pro 14-inch, Apple Silicon
+  - type: dropdown
+    id: display-setup
+    attributes:
+      label: Display setup
+      options:
+        - Laptop display only
+        - External display only
+        - Laptop + external display
+        - Not sure
+  - type: textarea
+    id: permissions
+    attributes:
+      label: Relevant permissions
+      description: Mention microphone, speech recognition, or accessibility permission state if relevant.
+      placeholder: Microphone granted, Speech Recognition granted, Accessibility granted
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or recordings
+      description: Paste links or drag in screenshots if they help explain the issue.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context
+      description: Logs, workarounds, or related details.
