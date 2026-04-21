@@ -157,9 +157,12 @@ Planned improvements:
 
 If something breaks, feels off, or blocks your setup, open an issue.
 
+- Read [How to report a bug](docs/report-a-bug.md) before filing a bug so your report includes the exact setup, permissions, and reproduction steps that matter for Aira.
+- Read [How to request a feature](docs/request-a-feature.md) before submitting ideas so requests stay concrete, scoped, and tied to real workflows.
 - Bug reports: use the bug template
 - Feature ideas: use the feature request template
 - Device/setup-specific problems: use the compatibility report template
+- Open the issue chooser here: [New issue](../../issues/new/choose)
 
 ## Repository Structure
 

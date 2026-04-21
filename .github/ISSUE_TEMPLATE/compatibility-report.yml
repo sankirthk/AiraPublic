@@ -42,8 +42,8 @@ body:
     attributes:
       label: Built-in physical notch?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
         - Not sure
   - type: dropdown
     id: displays
