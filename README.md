@@ -174,4 +174,4 @@ This repo should **not** contain the private shipping app source.
 
 ## License
 
-Add the license you want for the public-facing repository here.
+This repository is proprietary. See the [LICENSE](LICENSE) file for details.
