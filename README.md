@@ -16,21 +16,11 @@ Most teleprompters feel like generic text panes. Aira is designed for live speak
 - **Local-first storage** with no account, no cloud dependency, and no telemetry-first product design
 - **Presentation-focused controls** like pause, hover controls, keyboard shortcuts, and screen-share-aware overlay behavior
 
-## Demo
-
-Drop your real media into the `assets/` folder using the filenames listed in [assets/README.md](assets/README.md).
-
-![Demo overview](assets/demo-overview.png)
 
 ### Product Walkthrough
 
-<video src="assets/demo.mp4" controls muted playsinline></video>
+<video src="assets/demo.gif" controls muted playsinline></video>
 
-If GitHub video embedding is not ideal for your setup, replace the block above with:
-
-- a linked MP4 hosted in Releases
-- a GIF preview
-- or a YouTube/Vimeo demo link
 
 ## What It Does
 
@@ -44,7 +34,7 @@ If GitHub video embedding is not ideal for your setup, replace the block above w
   - context menu
 - Create new collections inline as you organize
 
-![Script library](assets/script-library.png)
+![Script library](assets/app.png)
 
 ### Flexible overlays for different setups
 
