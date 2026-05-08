@@ -2,6 +2,8 @@
 
 Voice-synced teleprompter for macOS.
 
+Download here: https://useaira.co
+
 Aira is a native macOS teleprompter built for presenters, podcasters, lecturers, interview prep, and video creators who want to stay on script without looking off-screen. It keeps your script in a floating overlay near the camera, supports voice-aware scrolling, and stays fully local — no account, no cloud, no internet required.
 
 ![Aira hero](assets/V2/Hero.png)
