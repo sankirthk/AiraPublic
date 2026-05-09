@@ -4,8 +4,8 @@ Use the GitHub feature request template when you want Aira to support a new work
 
 ## Open the Feature Form
 
-- Go to [Issues](../../issues)
-- Click [New issue](../../issues/new/choose)
+- Go to [Issues](https://github.com/sankirthk/AiraPublic/issues)
+- Click [New issue](https://github.com/sankirthk/AiraPublic/issues/new/choose)
 - Select **Feature Request**
 
 ## What Makes a Good Feature Request
@@ -48,4 +48,4 @@ If you have several unrelated ideas, open separate issues.
 
 ## Open a Feature Request
 
-[Create a feature request](../../issues/new/choose)
+[Create a feature request](https://github.com/sankirthk/AiraPublic/issues/new/choose)
