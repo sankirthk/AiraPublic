@@ -4,8 +4,8 @@ Use the GitHub issue templates when something in Aira is broken, inconsistent, o
 
 ## Open the Bug Form
 
-- Go to [Issues](../../issues)
-- Click [New issue](../../issues/new/choose)
+- Go to [Issues](https://github.com/sankirthk/AiraPublic/issues)
+- Click [New issue](https://github.com/sankirthk/AiraPublic/issues/new/choose)
 - Select **Bug Report**
 
 ## What Makes a Good Bug Report
@@ -61,4 +61,4 @@ Bad title:
 
 ## Open a Bug Report
 
-[Create a bug report](../../issues/new/choose)
+[Create a bug report](https://github.com/sankirthk/AiraPublic/issues/new/choose)
