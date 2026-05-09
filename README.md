@@ -201,7 +201,7 @@ If something breaks, feels off, or blocks your setup, open an issue.
 - Bug reports: use the bug template
 - Feature ideas: use the feature request template
 - Device/setup-specific problems: use the compatibility report template
-- Open the issue chooser here: [New issue](../../issues/new/choose)
+- Open the issue chooser here: [New issue](https://github.com/sankirthk/AiraPublic/issues/new/choose)
 
 
 ## Repository Structure
